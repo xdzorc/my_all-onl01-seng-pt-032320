@@ -8,4 +8,9 @@ def my_all?(collection)
     i=i+1
   end
   
+  if new.include?(false)
+    false
+  else
+    true
+  end
 end

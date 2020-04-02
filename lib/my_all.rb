@@ -7,4 +7,5 @@ def my_all?(collection)
     new<<yield(collection[i])
     i=i+1
   end
+  new
 end
